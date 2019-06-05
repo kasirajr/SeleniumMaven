@@ -39,9 +39,9 @@ public class SignUpSteps {
     @Then("User is signed up and home page is shown")
     public void userIsSignedUpAndHomePageIsShown() {
         if(driver.findElement(By.xpath("//span[contains(text(),\"Welcome to Ibrahim Ali Khan LNU. Happy Learning!\")]")).isDisplayed())
-            System.out.println("Success");
+            System.out.println("Test passed");
         else
-            System.out.println("Failed");
+            System.out.println("Test Failed Check");
     }
 
     @When("User fills signup form with valid data")
