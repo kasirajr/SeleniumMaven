@@ -41,7 +41,7 @@ public class SignUpSteps {
         if(driver.findElement(By.xpath("//span[contains(text(),\"Welcome to Ibrahim Ali Khan LNU. Happy Learning!\")]")).isDisplayed())
             System.out.println("Test passed");
         else
-            System.out.println("Test Failed");
+            System.out.println("Test Failed Check");
     }
 
     @When("User fills signup form with valid data")
